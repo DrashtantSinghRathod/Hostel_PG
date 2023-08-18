@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="abc.get.hostels_pg.signin">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-5961291905964303/1275215152"></com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="210dp"
+        android:gravity="center"
+        android:text="Please sign In to Search or                                                      Add Hostel/PG    "
+        android:textColor="#D0272424"
+        android:textSize="18sp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/signInButton"
+        android:layout_width="148dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="30dp">
+
+    </com.google.android.gms.common.SignInButton>
+
+</LinearLayout>

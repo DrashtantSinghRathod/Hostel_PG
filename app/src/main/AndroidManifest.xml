@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="abc.get.hostels_pg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mylogo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mylogo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
+        <activity android:name="abc.get.hostels_pg.AboutUs" ></activity>
+        <activity android:name="abc.get.hostels_pg.ContactUs" />
+
+        <service
+            android:name="abc.get.hostels_pg.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="abc.get.hostels_pg.MyBookings"
+            android:label="My Bookings"
+         />
+        <activity
+            android:name="abc.get.hostels_pg.Saved"
+            android:label="Saved"
+            />
+        <activity
+            android:name="abc.get.hostels_pg.book"
+            android:label="Get Hostelry"
+            android:parentActivityName="abc.get.hostels_pg.showdetail" />
+        <activity
+            android:name="abc.get.hostels_pg.Profile"
+            android:label="Get Hostelry"
+            />
+        <activity
+            android:name="abc.get.hostels_pg.showdetail"
+            android:label="Get Hostelry"
+            android:parentActivityName="abc.get.hostels_pg.Search" />
+        <activity
+            android:name="abc.get.hostels_pg.Search"
+            android:label="Get Hostelry"
+          />
+        <activity
+            android:name="abc.get.hostels_pg.signin"
+            android:label="Sign In"
+            android:parentActivityName="abc.get.hostels_pg.MainActivity" />
+        <activity
+            android:name="abc.get.hostels_pg.adddetail"
+            android:label="Get Hostelry"
+           />
+        <activity
+            android:name="abc.get.hostels_pg.MainActivity"
+            android:label="Get Hostelry">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5961291905964303~7745590472" />
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_Y5agwWWVeWsLb8" />
+    </application>
+
+</manifest>

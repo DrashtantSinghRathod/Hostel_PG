@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Hostels_PG</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="enter_your_location">Enter Your Location</string>
+    <string name="Rs">\u20B9</string>
+    <string name="tnc">\n1. Please fill all details correctly.Once submitted they cannot  be changed.
+
+        \n\n2. Please provide the true contact details,after submitting our customer care executive will verify the details then we will have full rights to block your account and take legal actions against you.
+
+        \n\n3.Please provide the actual images of your space if any  of photos/facilities found fake or not found or reported by the student/paying guest we will have full rights to block and remove your account.
+
+        \n\n4.  The user will have Options of both directly book space either on visit or online via our app.So the booking amount paid by  user should be settled with monthly rent.
+
+       \n\n 5. On Successful payment Booking amount,our Customer care executive will contact you about the booking and details of the user will be shared with you via sms or any other medium.
+        \n\n 6. If you fill wrong details in this form than after verification if something found wrong than your account will ban permanently and no data will be shown on our app related to your residence.
+    </string>
+    <string name="tnc3">You cannot add more than one residence in one colony with same mail id.
+    If you try to add details in same colony then the data will be updated to previously added
+    data.So kindly change the colony name by nearest colony.\nOr if you wants to update data then select update data button.</string>
+    <string name="tnc2">
+        \n1. You are informed that our commission is of Rs. 200/- on each successful booking.
+        \n\n2. We take Rs. 500 from user of which 300 will be given to you within 3 days, either he comes or not.
+        \n\n3. When user check in your room you have adjust his/her Rs. 500 in first month rent.
+        \n\n4. Make sure that booked room remain empty for 3 days.
+    </string>
+    <string name="about">1. We GetHostelry provides you the facility of finding/booking Hostel/PG/Flat on a single Click .
+    \n\n2. We GetHostelry provides you this service at 0* effective cost.
+    \n\n3. We GetHostelry  are also students, We know the problems faced by you for finding a good space of living for yourself.So we have tried to show
+        all the Hostel/PG/Flat around your college/institute .
+
+    \n\n4. We GetHostelry charges 0% brokerage for booking of your future living space.
+    \n\n 5. We GetHostelry makes sure that all the information provided on our app are 100% true and accurate in order to not let the student suffer.
+    \n\n6. We GetHostelry reserves all the rights to take actions against the tenants for providing false details.
+    \n\n 7. We GetHostelry try to provide fully verified data of living spaces shown in our app.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "631979184690",
+    "firebase_url": "https://hostelspg-default-rtdb.firebaseio.com",
+    "project_id": "hostelspg",
+    "storage_bucket": "hostelspg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631979184690:android:b68d22d8d99d49bf22e22b",
+        "android_client_info": {
+          "package_name": "abc.get.hostel_pg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631979184690-cpevk08428cca7oatkkag9oeu659ump2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "abc.get.hostel_pg",
+            "certificate_hash": "54461a1b4a9780f3bd4e17bc8f61f28ee4c70798"
+          }
+        },
+        {
+          "client_id": "631979184690-r20ji4bdbuv9606mlnbs841vm98in575.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgjWYCU37aotQz33F5LiVPZga491nYpgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631979184690-r20ji4bdbuv9606mlnbs841vm98in575.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
